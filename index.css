@@ -28,8 +28,17 @@ html,body{
     background: url(img/normalmusic.svg) no-repeat center center;
     z-index: 10;
     -webkit-animation: rotate 1s linear infinite;
+    animation: rotate 1s linear infinite;
 }
 
+@-webkit-keyframes rotate {
+    0%{
+        -webkit-transform: rotate(0deg);
+    }
+    100%{
+        -webkit-transform: rotate(360deg);
+    }
+}
 @keyframes rotate {
     0%{
         -webkit-transform: rotate(0deg);
@@ -266,6 +275,7 @@ html,body{
     left:40%;
     background: #f08519;
     -webkit-animation:fadeInRight 1s both 0.75s;
+    animation:fadeInRight 1s both 0.75s;
 }
 .a5 p:nth-of-type(2){
     position: absolute;
@@ -273,6 +283,7 @@ html,body{
     left:40%;
     background: #1b74ab;
     -webkit-animation:fadeInRight 1s both 1s;
+    animation:fadeInRight 1s both 1s;
 }
 .a5 p:nth-of-type(3){
     position: absolute;
@@ -280,6 +291,7 @@ html,body{
     left:40%;
     background: #e8422f;
     -webkit-animation:fadeInRight 1s both 1.5s;
+    animation:fadeInRight 1s both 1.5s;
 }
 .a5 p:nth-of-type(4){
     position: absolute;
@@ -287,6 +299,7 @@ html,body{
     left:40%;
     background: #acce22;
     -webkit-animation:fadeInRight 1s both 2s;
+    animation:fadeInRight 1s both 2s;
 }
 .a5 p:nth-of-type(5){
     height:100px;
@@ -298,8 +311,22 @@ html,body{
     background: red;
     border-radius:50%;
     -webkit-animation:lightSpeedIn 1s both 3s;
+    animation:lightSpeedIn 1s both 3s;
 }
 @-webkit-keyframes fadeInRight {
+    from {
+        opacity: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0);
+    }
+
+    to {
+        opacity: 1;
+        -webkit-transform: none;
+        transform: none;
+    }
+}
+@keyframes fadeInRight {
     from {
         opacity: 0;
         -webkit-transform: translate3d(100%, 0, 0);
@@ -338,3 +365,30 @@ html,body{
         opacity: 1;
     }
 }
+@keyframes lightSpeedIn {
+    from {
+        -webkit-transform: translate3d(100%, 0, 0) skewX(-30deg);
+        transform: translate3d(100%, 0, 0) skewX(-30deg);
+        opacity: 0;
+    }
+
+    60% {
+        -webkit-transform: skewX(20deg);
+        transform: skewX(20deg);
+        opacity: 1;
+    }
+
+    80% {
+        -webkit-transform: skewX(-5deg);
+        transform: skewX(-5deg);
+        opacity: 1;
+    }
+
+    to {
+        -webkit-transform: none;
+        transform: none;
+        opacity: 1;
+    }
+}
+
+
