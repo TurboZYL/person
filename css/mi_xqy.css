@@ -1,0 +1,382 @@
+html,body,div,input{
+    padding:0;
+    margin:0;
+    font-family: "Microsoft Yahei", Arial, SimSun;
+}
+ul,li{
+    list-style: none;
+}
+
+.head{
+    height:74px;
+    border-bottom: 2px solid #ff6700;
+}
+.head .head-body{
+    position: relative;
+    margin:0 auto;
+    width:1226px;
+}
+.head .logo{
+    margin-top:26px;
+    width:48px;
+    height:48px;
+    background: #ff6700;
+}
+.head .logo a{
+    display: block;
+    width:48px;
+    height:48px;
+    background: url(../img/mi-logo.png);
+}
+.login{
+    position: absolute;
+    top:0;
+    right:0;
+}
+.login a{
+    padding:0 2px;
+    height:40px;
+    line-height:40px;
+    font-size: 12px;
+    color:#757575;
+}
+.login span{
+    display: inline-block;
+    height:10px;
+    color:#f5f5f5;
+}
+
+
+.bodyOne{
+    margin:0 auto;
+    width:1226px;
+}
+.phone-title{
+    padding-top:15px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.phone-title ul li{
+    float:left;
+    margin-bottom: -1px;
+    width:110px;
+    height:76px;
+    line-height: 76px;
+    text-align: center;
+    font-size: 14px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.phone-title ul li a{
+    color:black;
+}
+.phone-title ul li.select{
+    border-bottom: 1px solid #333;
+}
+
+.play{
+    margin-bottom: 110px;
+}
+.play .pic{
+    margin:50px 60px 50px 108px;
+    float:left;
+}
+.play .pic img{
+    width:480px;
+    height:480px;
+}
+.play .chose{
+    float:right;
+    width:544px;
+}
+
+.play .chose{
+    margin-top: 60px;
+}
+.play .chose h1{
+    margin-bottom: 67px;
+    padding-bottom: 4px;
+    height:56px;
+    font-size: 30px;
+    font-weight: normal;
+    border-bottom: 1px solid #dfdfdf;
+}
+.play .chose h1 .price{
+    margin-left:10px;
+    color:#ff6700;
+}
+.play .chose h1 a{
+    display: block;
+    float:right;
+    margin-top:20px;
+    color:#333;
+    font-size: 12px;
+}
+.play .chose h3{
+    margin-top: 20px;
+    padding:10px 0;
+    height:36px;
+    font-size: 18px;
+    font-weight: normal;
+}
+
+.play .chose ul{
+    margin-left:-14px;
+    overflow: hidden;
+}
+.play .chose ul li{
+    float:left;
+    margin-left:14px;
+    width:263px;
+    height:48px;
+    line-height: 48px;
+    text-align: center;
+    border:1px solid #dfdfdf;
+}
+.next p{
+    display: block;
+    margin:40px 0 26px;
+    font-size: 14px;
+}
+.next a{
+    display: block;
+    width:180px;
+    height:50px;
+    line-height: 50px;
+    text-align: center;
+    color:#dfdfdf;
+    border:1px solid #dfdfdf;
+}
+
+
+.bodyTwo{
+    border-top: 1px solid #dfdfdf;
+    text-align: center;
+}
+.bodyThree a{
+    display: block;
+    width:1349px;
+    height:700px;
+    background: url(../img/mi5-lunbo1.jpg) no-repeat center center;
+}
+.bodyFour{
+    text-align: center;
+}
+.bodyFour a{
+    display: inline-block;
+    width:1226px;
+    height:660px;
+    border-bottom: 1px solid #dfdfdf;
+}
+.bodyFive .know,.bodyFive .pei,.pei-product,.buy{
+    margin:0 auto;
+    width:1226px;
+    text-align: center;
+    color:#424242;
+    overflow: hidden;
+}
+.know p,.pei p{
+    display: block;
+    padding:80px 0 60px 0;
+    font-size: 30px;
+}
+.know p{
+    border-bottom: 1px solid #dfdfdf;
+}
+.know i{
+    display: inline-block;
+    margin:0 0 -6px 10px;
+    width:0;
+    height:0;
+    border:8px solid #dfdfdf;
+    border-color: #dfdfdf transparent transparent transparent;
+}
+
+.pei-product li{
+    float:left;
+    margin-left:-1px;
+    width:33.33%;
+    height:390px;
+    border-left:1px solid #dfdfdf;
+    /*border-bottom:1px solid #dfdfdf;*/
+}
+.pei-product li h4{
+    font-size: 20px;
+    font-weight: normal;
+    color:#333;
+}
+.pei-product li p{
+    margin-top:10px;
+    font-size: 16px;
+    color:#ff6700;
+}
+.pei-product li p em{
+    font-style: normal;
+    font-size: 36px;
+}
+.pei-product li img{
+    display: block;
+    margin:0 auto;
+    width:220px;
+    height:220px;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*页面尾部*/
+.foot{
+    width:100%;
+    height:272px;
+}
+.foot .f_body{
+    margin:auto auto;
+    width:1226px;
+    background: white;
+}
+
+/*服务*/
+.foot .f_body .service{
+    padding:27px 0;
+    border-bottom:1px solid #e0e0e0;
+    overflow: hidden;
+}
+.foot .f_body .service li{
+    float:left;
+    width:243px;
+    height:25px;
+    line-height: 25px;
+    text-align: center;
+    border-left:1px solid #e0e0e0;
+    color:silver;
+}
+.foot .f_body .service li a{
+    color:#333;
+}
+.foot .f_body .service li a:hover{
+    color:#ff6700;
+}
+.foot .f_body .service .liFirst{
+    border-left:0;
+}
+
+/*支持*/
+.support{
+    padding:40px 0;
+}
+.support .support-links{
+    float:left;
+    width:160px;
+    height:112px;
+}
+.support .support-links dt{
+    display: block;
+    margin:0  0 26px;
+    font-size: 14px;
+    color:#424242;
+}
+.support .support-links dd{
+    display: block;
+    margin:10px 0 0;
+    font-size: 12px;
+}
+.support .support-links dd a{
+    color:#757575;
+}
+.support .support-links dd a:hover{
+    color:#ff6700;
+}
+
+.servicePhone{
+    float:right;
+    width:251px;
+    height:112px;
+    text-align: center;
+    color:#616161;
+    border-left:1px solid #e0e0e0;
+}
+.servicePhone .phoneNumber{
+    margin-bottom: 5px;
+    font-size: 22px;
+    color:#ff6700;
+}
+.servicePhone .time span{
+    display: block;
+    font-size: 12px;
+}
+.servicePhone .online{
+    display: inline-block;
+    margin-top:16px;
+    width:118px;
+    height:28px;
+    line-height: 28px;
+    font-size: 12px;
+    color:#ff6700;
+    background: white;
+    border:1px solid #ff6700;
+}
+.servicePhone .online:hover{
+    color:white;
+    background: #ff6700;
+}
+
+
+/*底部*/
+
+._bottom{
+    padding:30px 0;
+    width:100%;
+    /*height:36px;*/
+    background-color: #f5f5f5;
+}
+._bottom-nav{
+    margin:0 auto;
+    width:1226px;
+    height:36px;
+}
+._bottom-logo{
+    float:left;
+    margin-right: 10px;
+    width:36px;
+    height:36px;
+    background: url(../img/logo-footer.png) no-repeat;
+}
+._bottom-links{
+    float:left;
+}
+._bottom-links p{
+    /*display: block;*/
+    line-height:18px;
+    font-size: 12px;
+    color:#b0b0b0;
+}
+._bottom-links .link-name a{
+    color:#757575;
+}
+._bottom-links .link-name a:hover{
+    color:#ff6700;
+}
+._bottom-links .desc{
+    color:#b0b0b0;
+}
+.safe{
+    float:right;
+    margin-top:4px;
+    height:28px;
+}
+.safe img{
+    margin-left:7px;
+    height:28px;
+}
+
+._bottom-font{
+    margin:30px auto 0;
+    width:267px;
+    height:19px;
+    background: url(../img/slogan2016.png) no-repeat center 0;
+}

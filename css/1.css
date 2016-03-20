@@ -1,0 +1,46 @@
+/*搜索框*/
+/*body, div, ul, li,input,a {*/
+    /*margin: 0;*/
+    /*padding: 0;*/
+    /*font-family: "Microsoft Yahei", Arial, SimSun;*/
+
+/*}*/
+
+ul, li {
+    list-style: none;
+}
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+._input .list {
+    display: none;
+    position: absolute;
+    top: 79px;
+    right: 51px;
+    width: 243px;
+    border: 1px solid #ff6700;
+    background: white;
+    z-index: 100;
+}
+
+._input .list li {
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px;
+}
+
+._input .list li:hover {
+    background: #e8e8e8;
+}
+
+._input .list li a {
+    font-size: 12px;
+    color: black;
+    text-decoration: none;
+}
+._input .list li .sell{
+    float:right;
+    color:silver;
+}

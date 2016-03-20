@@ -25,7 +25,7 @@ html,body{
     right:80px;
     width:60px;
     height:60px;
-    background: url(img/normalmusic.svg) no-repeat center center;
+    background: url(images/normalmusic.svg) no-repeat center center;
     z-index: 10;
     -webkit-animation: rotate 1s linear infinite;
     animation: rotate 1s linear infinite;
@@ -59,16 +59,16 @@ html,body{
     z-index: 5;
 }
 #list li:nth-child(1){
-    background-image:url(img/bg.png) ;
+    background-image:url(images/bg.png) ;
 }
 #list li:nth-child(2){
-    background-image:url(img/3.png) ;
+    background-image:url(images/3.png) ;
 }
 #list li:nth-child(3){
-    background-image:url(img/4.jpg) ;
+    background-image:url(images/4.jpg) ;
 }
 #list li:nth-child(4){
-    background-image:url(img/S.jpg) ;
+    background-image:url(images/S.jpg) ;
 }
 #list li:nth-child(5){
     background:#fff ;
@@ -88,7 +88,7 @@ html,body{
     line-height: 265px;
     text-align: center;
     font-size: 50px;
-    background: url(img/aa.png) no-repeat center;
+    background: url(images/aa.png) no-repeat center;
     background-size: 100%;
 }
 .a1 div:nth-child(2){
@@ -116,7 +116,7 @@ html,body{
     margin:58% auto;
     width:250px;
     height:250px;
-    background: url(img/computer.png)no-repeat center center;
+    background: url(images/computer.png)no-repeat center center;
     border-radius: 50%;
 }
 .a2 p{
@@ -131,27 +131,27 @@ html,body{
     opacity: 0;
 }
 .a2 p:nth-child(1){
-    background: url(img/chrome.png) no-repeat center;
+    background: url(images/chrome.png) no-repeat center;
     background-size: 100%;
 }
 .a2 p:nth-child(2){
-    background: url(img/safari.png) no-repeat center;
+    background: url(images/safari.png) no-repeat center;
     background-size: 100%;
 }
 .a2 p:nth-child(3){
-    background: url(img/firefox.png) no-repeat center;
+    background: url(images/firefox.png) no-repeat center;
     background-size: 100%;
 }
 .a2 p:nth-child(4){
-    background: url(img/opera.png) no-repeat center;
+    background: url(images/opera.png) no-repeat center;
     background-size: 100%;
 }
 .a2 p:nth-child(5){
-    background: url(img/ie.png) no-repeat center;
+    background: url(images/ie.png) no-repeat center;
     background-size: 100%;
 }
 .a2 p:nth-child(6){
-    background: url(img/fade.png) no-repeat center;
+    background: url(images/fade.png) no-repeat center;
     background-size: 100%;
 }
 #a2 p {
@@ -192,7 +192,7 @@ html,body{
     left:0;
     width:729px;
     height:1104px;
-    background: url(img/tre.png)no-repeat center center;
+    background: url(images/tre.png)no-repeat center center;
     background-size: 100%;
 
 }
@@ -243,12 +243,12 @@ html,body{
 
 .a4 p:nth-of-type(2){
     height:350px;
-    background: url(img/d.png) no-repeat 0 54%;
+    background: url(images/d.png) no-repeat 0 54%;
     background-size: cover;
 }
 .a4 p:nth-child(3){
     height:350px;
-    background: url(img/e.png) no-repeat 0 80%;
+    background: url(images/e.png) no-repeat 0 80%;
     background-size: cover;
 }
 
@@ -258,7 +258,7 @@ html,body{
     left:15%;
     width:400px;
     height:577px;
-    background: url(img/link.png) no-repeat center center;
+    background: url(images/link.png) no-repeat center center;
 }
 .a5 p{
     width:350px;

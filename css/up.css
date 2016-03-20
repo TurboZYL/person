@@ -1,0 +1,163 @@
+body,div{
+    margin:0;
+    padding:0;
+    font-family: "Microsoft Yahei", Arial, SimSun;
+}
+body{
+    background: #f5f5f5;
+}
+.back{
+    position: relative;
+    margin:0 auto;
+    width:854px;
+    height:620px;
+    background: white;
+}
+.back .topRight{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 68px;
+    height: 68px;
+    opacity: 0.3;
+    background: url(../img/sprite_login.gif) no-repeat;
+}
+.back .topRight:hover{
+    opacity: 1;
+}
+.back .title{
+    padding:50px 0 22px 0;
+    width:100%;
+    height:110px;
+}
+.back .title .logo{
+    margin:0 auto;
+    width:49px;
+    height:49px;
+    background: #ff6700;
+}
+.back .title h4{
+    margin:0;
+    padding-top: 22px;
+    text-align: center;
+    color:#424242;
+    font-size: 30px;
+    font-weight: normal;
+}
+.back .userName,.back .password{
+    display: block;
+    margin:10px auto;
+    padding: 13px 16px 13px 14px;
+    width: 326px;
+    height: 22px;
+    line-height: 22px;
+    border:1px solid #e1e1e1;
+    outline: none;
+}
+.back .up{
+    display: block;
+    margin:38px auto;
+    width:356px;
+    height:50px;
+    font-size: 12px;
+    color:white;
+    background: #ef5a00;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.back .other{
+    margin:0 auto;
+    width:356px;
+    font-size: 14px;
+    color:#ababab;
+}
+.back .other a{
+    color:#ababab;
+}
+.back .icon{
+    margin:20px auto;
+    padding:10px;
+    width:160px;
+    height:34px;
+    /*background: red;*/
+}
+.back .icon a{
+    display: inline-block;
+    margin:0 10px;
+    width:30px;
+    height:30px;
+    background-color: #717171;
+    border-radius: 50%;;
+}
+.back .icon a i{
+    display: block;
+    margin:4px auto 0;
+    width:18px;
+    height:18px;
+}
+.back .icon a i.ALi{
+    margin:6px 0 0 4px;
+    width:25px;
+    height:18px;
+}
+.back .icon a:hover{
+    background-color: #0ae;
+}
+.back .icon a.bg:hover{
+    background-color: #d32f2f;
+}
+.back .icon .QQ{
+    background: url("../img/icons_type.png") no-repeat -19px 0;
+}
+.back .icon .sina{
+    background: url("../img/icons_type.png") no-repeat -38px 0;
+}
+.back .icon .ALi{
+    background: url("../img/icons_type.png") no-repeat -56px 0;
+}
+.back .forget{
+    margin:0 auto;
+    width:356px;
+    font-size: 14px;
+    color:#717171;
+    text-align: center;
+}
+.back .forget a{
+    color:#717171;
+}
+.back .forget a:hover{
+    color:#ff6700;
+}
+
+
+.foot{
+    padding:15px 0;
+    width:100%;
+    height:18px;
+    overflow: hidden;
+}
+.foot ul{
+    position:relative;
+    top:0;
+    left:50%;
+    margin-left:-120px ;
+}
+.foot li{
+    float: left;
+    font-size: 12px;
+    color:#ababab;
+    text-align: center;
+}
+.foot li a{
+    color:#717171;
+}
+.foot li span{
+    padding:0 14px;
+}
+.bottom{
+    padding:15px 0;
+    color:#717171;
+    font-size: 12px;
+    text-align: center;
+}

@@ -1,0 +1,353 @@
+//轮播图左侧
+var leftListAry1=[
+    {
+        logo:"img2/mi5xiaobar.jpg",
+        title:"小米5",
+        desc:"选购"
+    },
+    {
+        logo:"img2/mi4sxiaobar.jpg",
+        title:"小米4s",
+        desc:"选购"
+    },
+    {
+        logo:"img2/mi4.jpg",
+        title:"小米4",
+        desc:"选购"
+    },
+    {
+        logo:"img2/mi4c.jpg",
+        title:"小米4c",
+        desc:"选购"
+    },
+    {
+        logo:"img2/note3.jpg",
+        title:"红米Note 3",
+        desc:"选购"
+    },
+    {
+        logo:"img2/note.jpg",
+        title:"红米Note 电信版",
+        desc:"选购"
+    },
+    {
+        logo:"img2/hongmi3.jpg",
+        title:"红米手机3",
+        desc:"选购"
+    },
+    {
+        logo:"img2/hongmi2.jpg",
+        title:"红米手机2",
+        desc:"选购"
+    },
+    {
+        logo:"img2/hongmi2a.jpg",
+        title:"红米手机2A",
+        desc:"选购"
+    },
+    {
+        logo:"img2/pad2.png",
+        title:"小米平板2",
+        desc:"选购"
+    },
+    {
+        logo:"img2/telcom.jpg",
+        title:"电信版",
+        desc:"选购"
+    },
+    {
+        logo:"img2/heyue.jpg",
+        title:"合约机",
+        desc:"选购"
+    },
+    {
+        logo:"img2/zhongxin.jpg",
+        title:"中信特权",
+        desc:"选购"
+    },
+    {
+        logo:"img2/compare.jpg",
+        title:"对比手机",
+        desc:"选购"
+    },
+    {
+        logo:"img2/mimobile.jpg",
+        title:"小米移动 电话卡",
+        desc:"选购"
+    }
+];
+var leftListAry2=[
+    {
+        logo:"img2/tv40.jpg",
+        title:"小米电视 40英寸"
+    },
+    {
+        logo:"img2/tv48.jpg",
+        title:"小米电视 48英寸"
+    },
+    {
+        logo:"img2/tv3-55.jpg",
+        title:"小米电视 55英寸"
+    },
+    {
+        logo:"img2/tv60.jpg",
+        title:"小米电视 60英寸"
+    },
+    {
+        logo:"img2/tv70.jpg",
+        title:"小米电视 70英寸"
+    },
+    {
+        logo:"img2/tvzj.jpg",
+        title:"小米电视主机"
+    },
+    {
+        logo:"img2/hezis.jpg",
+        title:"小米盒子3"
+    },
+    {
+        logo:"img2/hezimini.jpg",
+        title:"小米盒子 mini"
+    },
+    {
+        logo:"img2/diyinpao.jpg",
+        title:"小米低音炮"
+    },
+    {
+        logo:"img2/shb.jpg",
+        title:"小米蓝牙手柄"
+    },
+    {
+        logo:"img2/dianshipeijian.jpg",
+        title:"电视盒子配件"
+    }
+];
+var leftListAry3=[
+    {
+        logo:"img2/miwifi.jpg",
+        title:"路由器"
+    },
+    {
+        logo:"img2/scooter.jpg",
+        title:"九号平衡车"
+    },
+    {
+        logo:"img2/shouhuan.jpg",
+        title:"手环及配件"
+    },
+    {
+        logo:"img2/scale.jpg",
+        title:"体重秤"
+    },
+    {
+        logo:"img2/ihealthbluetooth.jpg",
+        title:"血压计"
+    },
+    {
+        logo:"img2/zhinengtaozhuang.jpg",
+        title:"智能家庭套装"
+    },
+    {
+        logo:"img2/miwifimini.jpg",
+        title:"路由器 mini"
+    },
+    {
+        logo:"img2/water.jpg",
+        title:"净水器"
+    },
+    {
+        logo:"img2/air2.jpg",
+        title:"空气净化器 2"
+    },
+    {
+        logo:"img2/xiaoyi.jpg",
+        title:"摄像机"
+    },
+    {
+        logo:"img2/yicamera.jpg",
+        title:"运动相机"
+    },
+{
+    logo:"img2/chuangtoudeng.jpg",
+        title:"床头灯"
+},
+{
+    logo:"img2/miwifilite.jpg",
+        title:"路由器 青春版"
+},
+{
+    logo:"img2/jiancebi.jpg",
+        title:"水质检测笔"
+},
+{
+    logo:"img2/lvxinxiao.jpg",
+        title:"净化器滤芯"
+},
+{
+    logo:"img2/wifiplus.jpg",
+        title:"WiFi放大器"
+},
+    {
+        logo:"img2/leddengpao.jpg",
+        title:"智能灯泡"
+    },
+    {
+        logo:"img2/smart.jpg",
+        title:"全部智能硬件"
+    }
+];
+var leftListAry4=[
+    {
+        logo:"img2/dianyuan.jpg",
+        title:"小米移动电源"
+    },
+    {
+        logo:"img2/powerscript.jpg",
+        title:"小米插线板"
+    },
+    {
+        logo:"img2/yidongdianyuan.jpg",
+        title:"品牌移动电源"
+    },
+    {
+        logo:"img2/dianyuanfujian.jpg",
+        title:"移动电源附件"
+    }
+];
+var leftListAry5=[
+    {
+        logo:"img2/headphone.jpg",
+        title:"小米头戴式耳机"
+    },
+    {
+        logo:"img2/quantie.jpg",
+        title:"小米铁圈耳机"
+    },
+    {
+        logo:"img2/huosai.jpg",
+        title:"小米活塞耳机 标准版"
+    },
+    {
+        logo:"img2/xuancai.jpg",
+        title:"小米活塞耳机 炫彩版"
+    },
+    {
+        logo:"img2/bluetoothheadset.jpg",
+        title:"小米蓝牙耳机"
+    },
+    {
+        logo:"img2/erji.jpg",
+        title:"品牌耳机"
+    },
+    {
+        logo:"img2/pocketaudio.jpg",
+        title:"小米蓝牙音箱"
+    },
+    {
+        logo:"img2/xiaogangpao.jpg",
+        title:"小钢炮音箱"
+    },
+    {
+        logo:"img2/fanghezi.jpg",
+        title:"小米方盒子音箱"
+    },
+    {
+        logo:"img2/pinpaiyinxiang.jpg",
+        title:"品牌音箱"
+    }
+];
+var leftListAry6=[
+    {
+        logo:"img2/5Battery1.jpg",
+        title:"彩虹5号电池"
+    },
+    {
+        logo:"img2/7Battery1.jpg",
+        title:"彩虹7好电池"
+    },
+    {
+        logo:"img2/dianchi.jpg",
+        title:"电池"
+    },
+    {
+        logo:"img2/chongdian.jpg",
+        title:"充电器"
+    },
+    {
+        logo:"img2/xiancai.jpg",
+        title:"线材"
+    },
+    {
+        logo:"img2/cunchu.jpg",
+        title:"储存卡"
+    }
+];
+var leftListAry7=[
+    {
+        logo:"img2/baohu.jpg",
+        title:"保护套/保护壳"
+    },
+    {
+        logo:"img2/hougai.jpg",
+        title:"后盖"
+    }
+];
+var leftListAry8=[
+    {
+        logo:"img2/tiemo.jpg",
+        title:"贴膜"
+    },
+    {
+        logo:"img2/zipaigan.jpg",
+        title:"自拍干"
+    },
+    {
+        logo:"img2/tizhi.jpg",
+        title:"贴纸"
+    },
+    {
+        logo:"img2/fangchensai.jpg",
+        title:"防尘塞"
+    },
+    {
+        logo:"img2/zhijia.jpg",
+        title:"手机支架"
+    },
+    {
+        logo:"img2/wifi.jpg",
+        title:"随身wifi"
+    }
+];
+var leftListAry9=[
+    {
+        logo:"img2/mitu.jpg",
+        title:"米兔"
+    },
+    {
+        logo:"img2/fuzhuang.jpg",
+        title:"服装"
+    }
+];
+var leftListAry10=[
+    {
+        logo:"img2/bag.jpg",
+        title:"箱包"
+    },
+    {
+        logo:"img2/lvxingxiang.jpg",
+        title:"90分旅行箱"
+    },
+    {
+        logo:"img2/shubiaodian.jpg",
+        title:"小米鼠标垫"
+    },
+    {
+        logo:"img2/zhoubian1.jpg",
+        title:"生活周边"
+    },
+    {
+        logo:"img2/wan.jpg",
+        title:"酷玩产品"
+    }
+];
+
